@@ -21,7 +21,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run scripts
         env:
-          IG_PASSWORD: ${{ sectrets.IG_PASSWORD }}
+          IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
         run: python app.py
       - name: Save Video to Artifact
         uses: actions/upload-artifact@v2
