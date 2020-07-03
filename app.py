@@ -13,8 +13,9 @@ getFile(
 )
 
 base = (ig.template1()
-        .useRandomBg()
+        .useRandomBg(bgKeyword)
         .showSpotify()
+        .setTitle(title)
         .useInstagramLogo()
         .useNgupukLogo())
 
