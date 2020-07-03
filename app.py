@@ -12,7 +12,7 @@ getFile(
   "sample.ogg"
 )
 
-base = (ig.template1()
+base = (ig.template2()
         .useRandomBg(bgKeyword)
         .showSpotify()
         .setTitle(title)
