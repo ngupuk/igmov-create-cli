@@ -17,7 +17,7 @@ getFile(
   "sample.ogg"
 )
 
-base = (ig.template1()
+base = (ig.template2()
         .useRandomBg(bgKeyword)
         .showSpotify()
         .setTitle(title)
@@ -35,3 +35,4 @@ password = os.environ['IG_PASSWORD']
 
 with instapy_cli.client(username, password) as cli:
   cli.upload(pathVideo, igCaption)
+
