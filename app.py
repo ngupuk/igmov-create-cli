@@ -22,4 +22,4 @@ base = (ig.template1()
 if(not os.path.isdir('results')):
   os.makedirs('results')
 
-base.makeVideo("sample.ogg", "results/sample_result.mp4")
+base.makeVideo("sample.ogg", "results/sample.mp4")
