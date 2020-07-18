@@ -1,2 +1,3 @@
-# video-creator
-Code runner using github action to generate video
+# IGMOV-CREATE
+
+Create video using command line interface
